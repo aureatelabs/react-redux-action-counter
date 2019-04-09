@@ -1,0 +1,15 @@
+:local .paragraph {
+	color: red;
+	font-weight: bold;
+	font-size: 32px;
+}
+
+:local(.paragraph1) {
+	color: #FFF;
+}
+
+body {
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}

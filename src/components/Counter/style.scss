@@ -1,0 +1,47 @@
+:local(.minus) {
+    padding: 10px;
+    min-width: 150px;
+    font-size: 14px;
+    background: brown;
+    color: #ffffff;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: #bf2f2f;
+        cursor: pointer;
+    }
+}
+
+:local(.plus) {
+    padding: 10px;
+    min-width: 150px;
+    font-size: 14px;
+    background: darkgreen;
+    color: #ffffff;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: #008000;
+        cursor: pointer;
+    }
+}
+
+:local(.reset) {
+    padding: 10px;
+    min-width: 150px;
+    font-size: 14px;
+    background: darkblue;
+    color: #ffffff;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 3px;
+
+    &:hover {
+        background-color: #0000c4;
+        cursor: pointer;
+    }
+}
